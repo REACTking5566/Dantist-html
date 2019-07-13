@@ -32,6 +32,11 @@ module.exports = {
             }
         ]
     },
+    devServer: {
+        watchOptions: {
+            ignored: /node_modules/
+        }
+    },
     resolve: {
         extensions: ['.jsx', '.js', '.json']
     }
