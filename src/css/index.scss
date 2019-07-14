@@ -6,6 +6,11 @@
                 justify-content: space-between;
 
                 .header-logo {
+                    order: 1;
+                    border: 1px solid #fff;
+                    background: brown;
+                    opacity: 80%;
+
                     h1 {
                         a {
                             img {}
@@ -21,7 +26,7 @@
                     nav {
                         ul {
                             display: flex;
-                            justify-content: space-evenly;
+                            justify-content: flex-end;
 
                             li {}
                         }
@@ -55,6 +60,126 @@
                             &:nth-child(2) {}
                         }
                     }
+                }
+
+            }
+        }
+    }
+}
+
+.main {
+    .bg {
+        .content-inner-y {
+            .container {
+                .row {
+                    div {
+                        &:nth-child(1) {
+                            .main-img {
+                                position: relative;
+
+                                .main-img-slide {
+                                    ul {
+                                        li {
+                                            img {}
+                                        }
+                                    }
+                                }
+
+                                .main-img-logo {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 260px;
+                                    height: 380px;
+                                    background-color: #fff;
+
+                                    a {
+                                        img {
+                                            width: 80px;
+                                            height: 161px;
+                                        }
+                                    }
+                                }
+
+                                .main-copy {
+                                    position: absolute;
+                                    width: 290px;
+                                    right: 12%;
+                                    height: auto;
+                                    bottom: -110px;
+
+                                    a {
+                                        img {}
+                                    }
+                                }
+                            }
+
+                            .pc {
+                                nav {
+                                    ul {
+                                        display: flex;
+
+                                        li {
+                                            padding: 0 20px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        &:nth-child(2) {
+                            .nav-sub-header {
+
+                                a {
+                                    background-color: brown;
+                                    display: block;
+
+                                    span {}
+                                }
+
+                                p {
+                                    display: inline;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.content {
+    .bg {
+        background-color: #f7f5f2;
+
+        .container {
+            .row {
+                padding-left: 50px;
+
+                div {
+
+                    &:nth-child(1) {
+                        .news-sec-ttl {
+                            h2 {
+                                span {}
+                            }
+                        }
+                    }
+
+                    &:nth-child(2) {
+                        .news-sec-time {
+                            ul {
+                                li {}
+                            }
+                        }
+                    }
+
+
+
                 }
             }
         }
