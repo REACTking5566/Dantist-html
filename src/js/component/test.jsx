@@ -107,34 +107,44 @@ export let Test = () => {
         </div>
         <section className="content">
             <div className="bg">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-2">
-                            <div className="news-sec-ttl">
-                                <h2>
-                                    <span>お知らせ</span>
-                                    <span>お知らせ</span>
-                                </h2>
+                <div className="content-inner-y">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-2">
+                                <div className="news-sec-ttl">
+                                    <h2>
+                                        <span>お知らせ</span>
+                                        <span>お知らせ</span>
+                                    </h2>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-md-4">
-                            <div className="news-sec-time">
-                                <ul>
-                                    <li className='mb20'>
-                                        <span>2018.7.20</span>
-                                        <a href="">8月11日（土）～16日（木）まで休診とさせていただきます。  </a>
-                                    </li>
-                                    <div className="bottom-white-line mb20"></div>
-                                    <li className='mb20'>
-                                        <span>2018.7.20</span>
-                                        <a href="">8月11日（土）～16日（木）まで休診とさせていただきます。  </a>
-                                    </li>
-                                    <div className="bottom-white-line mb20"></div>
-                                    <li className='mb20'>
-                                        <span>2018.7.20</span>
-                                        <a href="">8月11日（土）～16日（木）まで休診とさせていただきます。  </a>
-                                    </li>
-                                </ul>
+                            <div className="col-md-4">
+                                <div className="news-sec-time">
+                                    <ul>
+                                        <li className='mb20'>
+                                            <span>2018.7.20</span>
+                                            <a href="">8月11日（土）～16日（木）まで休診とさせていただきます。  </a>
+                                        </li>
+                                        <div className="bottom-white-line mb20"></div>
+                                        <li className='mb20'>
+                                            <span>2018.7.20</span>
+                                            <a href="">8月11日（土）～16日（木）まで休診とさせていただきます。  </a>
+                                        </li>
+                                        <div className="bottom-white-line mb20"></div>
+                                        <li className='mb20'>
+                                            <span>2018.7.20</span>
+                                            <a href="">8月11日（土）～16日（木）まで休診とさせていただきます。  </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="news-sec-search">
+                                <p>
+                                    <a href="">
+                                        VIEW <br />
+                                        more
+                                    </a>
+                                </p>
                             </div>
                         </div>
                     </div>

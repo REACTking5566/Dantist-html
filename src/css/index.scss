@@ -153,6 +153,8 @@
 }
 
 .content {
+    position: relative;
+
     .bg {
         background-color: #f7f5f2;
 
@@ -178,8 +180,21 @@
                         }
                     }
 
+                }
 
+                .news-sec-search {
+                    position: absolute;
+                    right: 20%;
+                    bottom: 20%;
+                    border: 1px solid red;
 
+                    p {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        a {}
+                    }
                 }
             }
         }
