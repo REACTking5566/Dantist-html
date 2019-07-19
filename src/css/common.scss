@@ -5,7 +5,7 @@
     }
 }
 
-///margin 
+///margin  padding
 .mb80 {
     margin-bottom: 80px;
 }
@@ -13,11 +13,17 @@
 .mb40 {
     margin-bottom: 40px;
 }
+
 .mb20 {
     margin-bottom: 20px;
 }
+
 .pt40 {
     padding-top: 40px;
+}
+
+.pb20 {
+    padding-bottom: 20px;
 }
 
 .mg-auto {
@@ -1113,7 +1119,17 @@ img {
 }
 
 // 底線
-.bottom-white-line {
+.bot-white-line {
     height: 2px;
     background-color: #fff;
+}
+
+.bot-gray-dot-line {
+    border-bottom: 1px dotted gray;
+}
+
+// box-size
+
+.border-box {
+    box-sizing: border-box;
 }

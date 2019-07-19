@@ -125,12 +125,12 @@ export let Test = () => {
                                             <span>2018.7.20</span>
                                             <a href="">8月11日（土）～16日（木）まで休診とさせていただきます。  </a>
                                         </li>
-                                        <div className="bottom-white-line mb20"></div>
+                                        <div className="bot-white-line mb20"></div>
                                         <li className='mb20'>
                                             <span>2018.7.20</span>
                                             <a href="">8月11日（土）～16日（木）まで休診とさせていただきます。  </a>
                                         </li>
-                                        <div className="bottom-white-line mb20"></div>
+                                        <div className="bot-white-line mb20"></div>
                                         <li className='mb20'>
                                             <span>2018.7.20</span>
                                             <a href="">8月11日（土）～16日（木）まで休診とさせていただきます。  </a>
@@ -149,6 +149,117 @@ export let Test = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section className="service">
+
+            <div className="content-inner-x">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-4">
+                            <div className="bg">
+                                <div className="menu-sec-ttl">
+                                    <p>
+                                        <span>
+                                            ABOUT
+                                        </span>
+                                        <h1>
+                                            <span>当院</span>
+                                            <br />
+                                            について
+                                        </h1>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="bg">
+                                <div className="menu-sec-ttl">
+                                    <p>
+                                        <span>
+                                            ABOUT
+                                        </span>
+                                        <h1>
+                                            <span>当院</span>
+                                            <br />
+                                            について
+                                        </h1>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="bg">
+                                <div className="menu-sec-ttl">
+                                    <p>
+                                        <span>
+                                            ABOUT
+                                        </span>
+                                        <h1>
+                                            <span>当院</span>
+                                            <br />
+                                            について
+                                        </h1>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <section className="blog">
+            <div className="bg">
+                <div className="container border-box mb40">
+                    <div className="content-inner-x">
+                        <div className="row">
+                            <div className="col-md-4 blog-sec-ttl">
+                                <h1 className="sec-ttl">
+                                    <span className="eng">BLOG</span>
+                                    <span className="jpn">ブログ</span>
+                                </h1>
+                            </div>
+                            <div className="col-md-4 blog-sec-list">
+                                <ul>
+                                    <li className="pb20 mb40 bot-gray-dot-line">
+                                        <span className="time">
+                                            2018.10.15
+                                        </span>
+                                        <a href="" className="content">
+                                            <h1>
+                                                ハル歯科だよりVol.5~『備えあれば憂いなし！避難袋に歯ブラシを！』
+                                            </h1>
+                                        </a>
+
+                                    </li>
+                                    <li className="pb20 mb40 bot-gray-dot-line">
+                                        <span className="time">
+                                            2018.10.15b
+                                        </span>
+                                        <a href="" className="content">
+                                            <h1>
+                                                ハル歯科だよりVol.5~『備えあれば憂いなし！避難袋に歯ブラシを！』
+                                            </h1>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <span className="time">
+                                            2018.10.15
+                                        </span>
+                                        <a href="" className="content">
+                                            <h1>
+                                                ハル歯科だよりVol.5~『備えあれば憂いなし！避難袋に歯ブラシを！』
+                                            </h1>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
     </header>

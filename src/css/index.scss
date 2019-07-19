@@ -186,14 +186,96 @@
                     position: absolute;
                     right: 20%;
                     bottom: 20%;
-                    border: 1px solid red;
+                    border: 1px solid #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 200px;
+                    height: 150px;
 
                     p {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
+
 
                         a {}
+                    }
+                }
+            }
+        }
+    }
+}
+
+.service {
+    .content-inner-x {
+        .row {
+            div {
+                box-sizing: border-box;
+                padding: 10px;
+
+                .bg {
+                    padding: 10px;
+                    background-image: url('https://www.haru-shika.jp/wp/wp-content/themes/haru/images/menu-img01.jpg');
+                    background-position: center center;
+                    background-size: cover;
+
+                    &:before {
+                        display: block;
+                        content: "";
+                        padding-top: 75%;
+                    }
+
+                    .menu-sec-ttl {
+                        margin: 0 auto;
+
+                        p {
+                            span {}
+
+                            h1 {
+                                span {}
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+.blog {
+    .bg {
+        background-image: url('https://www.haru-shika.jp/wp/wp-content/themes/haru/images/blog-bg.jpg');
+        background-size: cover;
+        background-position: center center;
+
+        &:brfore {
+            content: '';
+            display: block;
+            height: 75%;
+        }
+
+        .container {
+            background: #fff;
+
+            .content-inner-x {
+                .row {
+                    .blog-sec-ttl {
+                        .sec-ttl {
+                            .eng {
+                                display: inline-block;
+                                font-family: 'Overpass', sans-serif;
+                                font-weight: 400;
+                                margin-bottom: 12px;
+                                font-size: 12px;
+                            }
+
+                            .jpn {
+                                font-family: "Noto Serif Japanese", sans-serif;
+                                font-weight: 500;
+                                display: block;
+                                font-size: 26px;
+                                letter-spacing: 0.2em;
+                            }
+                        }
                     }
                 }
             }
