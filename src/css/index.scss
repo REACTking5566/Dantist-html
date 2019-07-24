@@ -1,3 +1,9 @@
+body {
+    color: #000;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+}
+
 .header-middle-content {
     .content-inner-y {
         .container {
@@ -182,23 +188,6 @@
 
                 }
 
-                .news-sec-search {
-                    position: absolute;
-                    right: 20%;
-                    bottom: 20%;
-                    border: 1px solid #fff;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 200px;
-                    height: 150px;
-
-                    p {
-
-
-                        a {}
-                    }
-                }
             }
         }
     }
@@ -241,44 +230,149 @@
     }
 }
 
-.blog {
+.informatopn {
     .bg {
-        background-image: url('https://www.haru-shika.jp/wp/wp-content/themes/haru/images/blog-bg.jpg');
-        background-size: cover;
-        background-position: center center;
-
-        &:brfore {
-            content: '';
-            display: block;
-            height: 75%;
-        }
-
-        .container {
-            background: #fff;
-
-            .content-inner-x {
+        .content-inner-x {
+            .container {
                 .row {
-                    .blog-sec-ttl {
-                        .sec-ttl {
-                            .eng {
-                                display: inline-block;
-                                font-family: 'Overpass', sans-serif;
-                                font-weight: 400;
-                                margin-bottom: 12px;
-                                font-size: 12px;
-                            }
+                    div {
+                        &:nth-child(1) {
+                            .sec-sub-ttl {
+                                &:before {
+                                    background-image: url('https://www.haru-shika.jp/wp/wp-content/themes/haru/common/images/icon-hour.svg');
+                                }
 
-                            .jpn {
-                                font-family: "Noto Serif Japanese", sans-serif;
-                                font-weight: 500;
-                                display: block;
-                                font-size: 26px;
-                                letter-spacing: 0.2em;
+                                span {}
+                            }
+                        }
+
+                        &:nth-child(2) {
+                            .open-time-table-wrapper {
+                                .open-time-table {}
+
+                                .open-table-text {
+                                    p {}
+
+                                    img {}
+                                }
                             }
                         }
                     }
                 }
             }
         }
+    }
+}
+
+
+.blog {
+    .bg {
+        background-image: url('https://www.haru-shika.jp/wp/wp-content/themes/haru/images/blog-bg.jpg');
+        background-size: cover;
+        background-position: center center;
+
+        &:after {
+            content: '';
+            display: block;
+            height: 100%;
+            padding-bottom: 20px;
+        }
+
+        .container {
+            background: #fff;
+
+            .content-inner-x {
+                .row {}
+            }
+        }
+    }
+}
+
+
+//font
+.eng {
+    display: inline-block;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+
+.jpn {
+    font-family: "Noto Serif Japanese", sans-serif;
+    font-weight: 500;
+    display: block;
+    font-size: 26px;
+    letter-spacing: 0.2em;
+}
+
+
+.blog-sec-ttl {
+    .sec-ttl {
+        &:after {
+            content: "+";
+            display: block;
+            margin-top: 15px;
+            height: 5px;
+            width: 5px;
+        }
+    }
+}
+
+
+.news-sec-search {
+    position: absolute;
+    right: 20%;
+    bottom: 20%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+
+    p {
+
+
+        a {}
+    }
+}
+
+.link-box {
+    top: 0;
+    right: 9%;
+}
+
+
+@media(min-width:800px) {
+    .open-time-table {
+        th {
+            padding: 8px 2px;
+            border: 1px solid #dcdcdc;
+            background-color: #ae9373;
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+}
+
+
+@media(min-width:800px) {
+
+    .open-table-circle {
+        padding: 5px;
+        width: 14px;
+        height: 14px;
+        vertical-align: middle;
+    }
+
+}
+
+@media(min-width:800px) {
+    .open-table-text img {
+        width: 10px;
+        height: 10px;
+        vertical-align: middle;
     }
 }

@@ -151,7 +151,7 @@ export let Test = () => {
                 </div>
             </div>
         </section>
-        <section className="service">
+        <section className="service mb40">
 
             <div className="content-inner-x">
                 <div className="container">
@@ -210,10 +210,38 @@ export let Test = () => {
 
 
         </section>
+
+        <section className="sec-employee mb40">
+            <div className="bg relative">
+                <div className="container">
+
+                    <div className="row justify-between">
+                        <div className="col-md-4 flex-dire-col flex flex-v-center">
+
+                            <div class="blog-sec-ttl pb40"><h1 class="sec-ttl"><span class="eng">BLOG</span><span class="jpn">ブログ</span></h1></div>
+                            <div className="director-text">
+                                <p>
+                                    当院では「笑顔が素敵になる未来」をモットーに、“笑顔創造産業”を掲げ、歯科医業とデンタルエステの融合により、治療終了後もプロケアとホームケアを徹底していくことで、通い続けることが楽しくなるように、日々努力しております。
+                                    </p>
+                            </div>
+
+                        </div>
+                        <div className="col-md-6">
+                            <div className="director-img">
+                                <img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/staff-img_pc.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="news-sec-search"><p><a href="">VIEW <br />more</a></p></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
         <section className="blog">
-            <div className="bg">
+            <div className="bg relative">
                 <div className="container border-box mb40">
                     <div className="content-inner-x">
+
                         <div className="row">
                             <div className="col-md-4 blog-sec-ttl">
                                 <h1 className="sec-ttl">
@@ -256,13 +284,89 @@ export let Test = () => {
                                     </li>
                                 </ul>
                             </div>
+                            <div className="news-sec-search link-box">
+                                <p>
+                                    <a href="">
+                                        VIEW
+                                        <br />
+                                        news
+                                    </a>
+                                </p>
+                            </div>
                         </div>
+
                     </div>
                 </div>
 
             </div>
         </section>
-    </header>
+        <section className="iformation">
+            <div className="bg">
+                <div className="content-inner-x">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-4">
+                                <div className="sec-sub-ttl">
+                                    <span></span>
+                                    <span className="eng">INFOMATION</span>
+                                    <span className="jpn">就診時間</span>
+                                </div>
+
+                            </div>
+                            <div className="col-md-4">
+                                <div className="open-time-table-wrapper">
+                                    <table className="open-time-table">
+                                        <tbody>
+                                            <tr>
+                                                <th>診療時間</th>
+                                                <th>火</th>
+                                                <th>火</th>
+                                                <th>火</th>
+                                                <th>火</th>
+                                                <th>火</th>
+                                                <th>火</th>
+                                                <th>火</th>
+                                            </tr>
+                                            <tr>
+                                                <th>8:30-12:00</th>
+                                                <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
+                                                <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
+                                                <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
+                                                <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
+                                                <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
+                                                <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
+                                            </tr>
+                                            <tr>
+                                                <th>8:30-12:00</th>
+                                                <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
+                                                <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
+                                                <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
+                                                <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
+                                                <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
+                                                <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div className="open-table-text">
+                                        <p>
+                                            <img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-triangle.svg" alt="" />
+                                            <span>15:00～18:00</span>
+                                        </p>
+                                        <p>休診日　木曜・日曜・祝日</p>
+                                        <p>休診日　木曜・日曜・祝日</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+    </header >
 }
 
 

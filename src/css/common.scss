@@ -26,6 +26,10 @@
     padding-bottom: 20px;
 }
 
+.pb40 {
+    padding-bottom: 40px;
+}
+
 .mg-auto {
     margin: 0 auto;
 }
@@ -167,6 +171,14 @@ img {
     display: flex;
 }
 
+.flex-dire-col {
+    flex-direction: column;
+}
+
+.flex-v-center {
+    justify-content: center;
+}
+
 .justify-center {
     justify-content: center;
 
@@ -178,6 +190,11 @@ img {
 
 .justify-around {
     justify-content: space-around;
+}
+// position
+
+.relative{
+    position: relative;
 }
 
 // transation
