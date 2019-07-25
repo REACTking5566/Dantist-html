@@ -311,7 +311,13 @@ export let Test = () => {
                                     <span className="eng">INFOMATION</span>
                                     <span className="jpn">就診時間</span>
                                 </div>
-
+                                <div className="info-sec-phone">
+                                    <p className="phone-number">
+                                        <span>TEL.</span>
+                                        <a href="">053-416-1188</a>
+                                    </p>
+                                    <p className="fax-number">Fax.053-416-1189</p>
+                                </div>
                             </div>
                             <div className="col-md-4">
                                 <div className="open-time-table-wrapper">
@@ -366,6 +372,47 @@ export let Test = () => {
 
 
         </section>
+
+        <footer id="footer">
+            <div className="footer-roof">
+                <div className="footer-roof-text col-md-8">
+
+                    <h1>
+                        <img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/common/images/icon-pagetop.svg" alt="" />
+                        <span>
+                            page-top-text
+                        </span>
+                    </h1>
+
+                </div>
+            </div>
+            <div className="bg">
+                <div className="content-inner-x">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-4">
+                                <div className="clinc-name">
+                                    <p>デンタルステーション</p>
+                                    <p>ハル歯科医院</p>
+                                </div>
+                                <div className="clinc-address">
+                                    <p>静岡県浜松市中区小豆餅3-7-23</p>
+                                    <p>Fax：053-416-1189</p>
+                                </div>
+                            </div>
+                            <div className="col-md-4">
+                                <div className="clinc-time">
+
+                                </div>
+                                <div className="clinc-info"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
     </header >
 }
 

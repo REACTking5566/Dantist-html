@@ -230,19 +230,30 @@ body {
     }
 }
 
-.informatopn {
+.iformation {
     .bg {
         .content-inner-x {
             .container {
                 .row {
                     div {
+
                         &:nth-child(1) {
+                            color: red;
+
                             .sec-sub-ttl {
-                                &:before {
+                                &:after {
                                     background-image: url('https://www.haru-shika.jp/wp/wp-content/themes/haru/common/images/icon-hour.svg');
                                 }
 
                                 span {}
+                            }
+
+                            .info-sec-phone {
+                                .phone-number {
+                                    span {
+                                        display: block;
+                                    }
+                                }
                             }
                         }
 
@@ -283,6 +294,48 @@ body {
 
             .content-inner-x {
                 .row {}
+            }
+        }
+    }
+}
+
+#footer {
+
+    color: #fff;
+
+    .footer-roof-text {
+        position: relative;
+        bottom: 20px;
+        background-color: #222;
+        text-align: center;
+        margin: 0 auto;
+
+        h1 {
+            padding: 20px 0;
+
+            img {
+                width: 30px;
+                height: 15px;
+            }
+
+            span {
+                display: block;
+            }
+        }
+    }
+
+    .bg {
+        background-color: #222;
+
+        .content-inner-x {
+            .container {
+                .row {
+                    div {
+                        &:nth-child(1) {}
+
+                        &:nth-child(2) {}
+                    }
+                }
             }
         }
     }
