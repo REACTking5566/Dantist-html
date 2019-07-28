@@ -303,37 +303,88 @@ body {
 
     color: #fff;
 
-    .footer-roof-text {
-        position: relative;
-        bottom: 20px;
-        background-color: #222;
-        text-align: center;
-        margin: 0 auto;
+    .bg {
+        background-color: #333;
 
-        h1 {
-            padding: 20px 0;
+        // position: relative;
+        .footer-roof {
+            position: relative;
 
-            img {
-                width: 30px;
-                height: 15px;
-            }
+            .footer-roof-text {
+                position: absolute;
+                background-color: #222;
+                text-align: center;
+                top: 0;
+                transform: translate(-50%, -50%);
+                left: 50%;
+                width: 80%;
 
-            span {
-                display: block;
+                h1 {
+                    padding: 20px 0;
+
+                    img {
+                        width: 30px;
+                        height: 15px;
+                    }
+
+                    span {
+                        display: block;
+                        white-space: nowrap;
+                    }
+                }
             }
         }
-    }
 
-    .bg {
-        background-color: #222;
+        .footer-content {
+            .content-inner-x {
+                .container {
+                    .row {
+                        div {
 
-        .content-inner-x {
-            .container {
-                .row {
-                    div {
-                        &:nth-child(1) {}
+                            &:nth-child(1) {}
 
-                        &:nth-child(2) {}
+                            &:nth-child(2) {
+                                display: flex;
+                                justify-content: space-around;
+                                align-items: center;
+
+                                .clinc-time {
+                                    p {
+                                        display: inline-block;
+                                    }
+                                }
+
+                                .clinc-info {
+                                    display: table-cell;
+                                    vertical-align: middle;
+                                    border: 1px solid #fff;
+                                    padding: 30px 10px;
+
+                                    span {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-bottom-list {
+            .bg {
+                background-color: #393939;
+
+                .content-inner-y {
+                    .container {
+                        .row {
+                            div {
+                                ul {
+                                    display: flex;
+                                    justify-content: space-around;
+
+                                    li {}
+                                }
+                            }
+                        }
                     }
                 }
             }

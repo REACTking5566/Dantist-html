@@ -374,37 +374,77 @@ export let Test = () => {
         </section>
 
         <footer id="footer">
-            <div className="footer-roof">
-                <div className="footer-roof-text col-md-8">
 
-                    <h1>
-                        <img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/common/images/icon-pagetop.svg" alt="" />
-                        <span>
-                            page-top-text
-                        </span>
-                    </h1>
-
-                </div>
-            </div>
             <div className="bg">
-                <div className="content-inner-x">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-4">
-                                <div className="clinc-name">
-                                    <p>デンタルステーション</p>
-                                    <p>ハル歯科医院</p>
+                <div className="footer-roof">
+                    <div className="footer-roof-text col-md-8">
+
+                        <h1>
+                            <img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/common/images/icon-pagetop.svg" alt="" />
+                            <span>
+                                page-top-text
+                        </span>
+                        </h1>
+
+                    </div>
+                </div>
+                <div className="footer-content">
+                    <div className="content-inner-x content-inner-y">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-md-4">
+                                    <div className="clinc-name">
+                                        <p>デンタルステーション</p>
+                                        <p>ハル歯科医院</p>
+                                    </div>
+                                    <div className="clinc-address">
+                                        <p>静岡県浜松市中区小豆餅3-7-23</p>
+                                        <p>Fax：053-416-1189</p>
+                                    </div>
                                 </div>
-                                <div className="clinc-address">
-                                    <p>静岡県浜松市中区小豆餅3-7-23</p>
-                                    <p>Fax：053-416-1189</p>
+                                <div className="col-md-8">
+                                    <div className="clinc-time">
+                                        <p>
+                                            月・火・木・金
+<br />
+                                            月・火・木・金
+<br />
+                                            月・火・木・金
+</p>
+                                        <p>
+                                            9:00-13:00 / 14:30-18:30
+<br />
+                                            9:00-13:00 / 14:30-18:30
+<br />
+                                            9:00-13:00 / 14:30-18:30
+</p>
+                                    </div>
+                                    <div className="clinc-info">
+                                        <span>
+                                            採用情報
+                                    </span>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col-md-4">
-                                <div className="clinc-time">
-
+                        </div>
+                    </div>
+                </div>
+                <div className="footer-bottom-list">
+                    <div className="bg">
+                        <div className="content-inner-y">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-md-12">
+                                        <ul>
+                                            <li>自費治療について :</li>
+                                            <li>自費治療について :</li>
+                                            <li>自費治療について :</li>
+                                            <li>自費治療について :</li>
+                                            <li>自費治療について :</li>
+                                            <li>自費治療について :</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div className="clinc-info"></div>
                             </div>
                         </div>
                     </div>
