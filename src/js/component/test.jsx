@@ -398,8 +398,12 @@ export let Test = () => {
                                         <p>ハル歯科医院</p>
                                     </div>
                                     <div className="clinc-address">
-                                        <p>静岡県浜松市中区小豆餅3-7-23</p>
-                                        <p>Fax：053-416-1189</p>
+                                        <div>
+                                            <p>静岡県浜松市中区小豆餅3-7-23</p>
+                                        </div>
+                                        <div>
+                                            <p>Fax：053-416-1189</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="col-md-8">
@@ -431,17 +435,17 @@ export let Test = () => {
                 </div>
                 <div className="footer-bottom-list">
                     <div className="bg">
-                        <div className="content-inner-y">
-                            <div className="container">
+                        <div className="content-inner-y content-inner-x">
+                            <div className="container border-box">
                                 <div className="row">
                                     <div className="col-md-12">
                                         <ul>
-                                            <li>自費治療について :</li>
-                                            <li>自費治療について :</li>
-                                            <li>自費治療について :</li>
-                                            <li>自費治療について :</li>
-                                            <li>自費治療について :</li>
-                                            <li>自費治療について :</li>
+                                            <li className="font-nw">療について :</li>
+                                            <li className="font-nw">療について :</li>
+                                            <li className="font-nw">療について :</li>
+                                            <li className="font-nw">療について :</li>
+                                            <li className="font-nw">療について :</li>
+                                            <li className="font-nw">療について :</li>
                                         </ul>
                                     </div>
                                 </div>

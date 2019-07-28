@@ -339,9 +339,15 @@ body {
             .content-inner-x {
                 .container {
                     .row {
-                        div {
+                        >div {
 
-                            &:nth-child(1) {}
+                            &:nth-child(1) {
+                                .clinc-name {}
+
+                                .clinc-address {
+                                    p {}
+                                }
+                            }
 
                             &:nth-child(2) {
                                 display: flex;
@@ -381,7 +387,9 @@ body {
                                     display: flex;
                                     justify-content: space-around;
 
-                                    li {}
+                                    li {
+                                        padding: 0 5px;
+                                    }
                                 }
                             }
                         }
