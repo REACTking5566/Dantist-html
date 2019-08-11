@@ -4,22 +4,37 @@ body {
     letter-spacing: 0.1em;
 }
 
+.header-top-content {
+    .slider-menu-item {
+        position: relative;
+    }
+}
+
+
+
 .header-middle-content {
-    .content-inner-y {
+    div {
         .container {
             .row {
                 align-items: center;
                 justify-content: space-between;
 
                 .header-logo {
+                    border: 1px solid black;
                     order: 1;
-                    border: 1px solid #fff;
                     background: brown;
                     opacity: 80%;
+                    padding: 20px;
+                    box-sizing: border-box;
 
                     h1 {
+                        text-align: center;
+
                         a {
-                            img {}
+                            img {
+                                width: 11px;
+                                height: 22px;
+                            }
                         }
                     }
 
@@ -75,9 +90,11 @@ body {
 
 .main {
     .bg {
-        .content-inner-y {
+        div {
             .container {
                 .row {
+                    justify-content: flex-end;
+
                     div {
                         &:nth-child(1) {
                             .main-img {
@@ -139,6 +156,7 @@ body {
                                 a {
                                     background-color: brown;
                                     display: block;
+                                    padding: 20px 0;
 
                                     span {}
                                 }
@@ -164,32 +182,60 @@ body {
     .bg {
         background-color: #f7f5f2;
 
-        .container {
-            .row {
-                padding-left: 50px;
+        .content-inner-y {
+            .container {
+                .row {
+                    padding-left: 50px;
 
-                div {
+                    div {
 
-                    &:nth-child(1) {
-                        .news-sec-ttl {
-                            h2 {
-                                span {}
+                        &:nth-child(1) {
+                            .news-sec-ttl {
+                                .sec-ttl {
+                                    &:after {
+                                        content: '+';
+                                        display: block;
+                                        width: 15px;
+                                        height: 10px;
+                                        font-size: 15px;
+                                    }
+
+                                    span {}
+                                }
                             }
                         }
-                    }
 
-                    &:nth-child(2) {
-                        .news-sec-time {
-                            ul {
-                                li {}
+                        &:nth-child(2) {
+                            .news-sec-time {
+                                ul {
+                                    li {
+                                        span {
+                                            font-family: 'Overpass', sans-serif;
+                                            font-weight: 400;
+                                            display: block;
+                                            font-size: 14px;
+                                        }
+
+                                        a {
+                                            font-family: 'Overpass', sans-serif;
+                                            font-weight: 400;
+                                            display: block;
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
                             }
                         }
+
                     }
 
+                    .news-sec-search {
+                        right: 10%;
+                    }
                 }
-
             }
         }
+
     }
 }
 
@@ -197,8 +243,13 @@ body {
     .content-inner-x {
         .row {
             div {
+                &:nth-child(even) {
+                    margin-left: auto;
+                }
+
                 box-sizing: border-box;
                 padding: 10px;
+                margin: 10px 0;
 
                 .bg {
                     padding: 10px;
@@ -223,6 +274,44 @@ body {
                             }
                         }
 
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+.sec-employee {
+    .bg {
+        // border: 1px solid red;
+
+        .container {
+            .row {
+                font-weight: 600;
+
+                div {
+                    &:nth-child(1) {
+                        .director-text {
+                            p {
+                                font-size: 14px;
+                                letter-spacing: 0.4em;
+                            }
+                        }
+
+                    }
+
+                    &:nth-child(2) {}
+                }
+
+                .news-sec-search {
+                    @media screen and(max-width:768px) {
+                        left: 10%;
+                    }
+
+                    @media screen and(min-width:768px) {
+                        // width: 20%;
+                        left: 41%;
                     }
                 }
             }
@@ -293,7 +382,12 @@ body {
             background: #fff;
 
             .content-inner-x {
-                .row {}
+                .row {
+                    .news-sec-search {
+                        transform: translate(0, 0);
+                        // right: 5%;
+                    }
+                }
             }
         }
     }
@@ -321,6 +415,10 @@ body {
 
                 h1 {
                     padding: 20px 0;
+
+                    &:hover {
+                        background-color: black;
+                    }
 
                     img {
                         width: 30px;
@@ -365,6 +463,11 @@ body {
                                     vertical-align: middle;
                                     border: 1px solid #fff;
                                     padding: 30px 10px;
+
+                                    &:hover {
+                                        background-color: #fff;
+                                        color: black;
+                                    }
 
                                     span {}
                                 }
@@ -420,6 +523,9 @@ body {
 
 
 .blog-sec-ttl {
+
+    // background-image: url('https://www.haru-shika.jp/wp/wp-content/themes/haru/common/images/icon-access.svg');
+    // background-color: black;
     .sec-ttl {
         &:after {
             content: "+";
@@ -429,13 +535,28 @@ body {
             width: 5px;
         }
     }
+
+    &:before {
+        background-image: url('https://www.haru-shika.jp/wp/wp-content/themes/haru/common/images/icon-access.svg');
+        background-color: black;
+    }
 }
 
 
 .news-sec-search {
+    @media screen and(min-width:768px) {
+        width: 20%;
+        top: 50%;
+    }
+
+    @media screen and(max-width:768px) {
+        // top: 0;
+    }
+
     position: absolute;
-    right: 20%;
-    bottom: 20%;
+    // right: 20%;
+    // top: 50%;
+    transform: translate(0, -50%);
     border: 1px solid black;
     display: flex;
     justify-content: center;

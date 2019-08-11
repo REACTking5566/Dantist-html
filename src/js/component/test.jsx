@@ -4,15 +4,26 @@ import ReactDOM from 'react-dom';
 
 export let Test = () => {
     return <header>
-        <div className="header-top-content"></div>
+        <div className="header-top-content">
+            <div className="slider-menu-item">
+                <a href="">
+                    三
+                </a>
+                <h1>
+                    <a href="">
+                        <img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/common/images/logo_sp.svg" alt="" />
+                    </a>
+                </h1>
+            </div>
+        </div>
         <div className="header-middle-content">
-            <div className="content-inner-y">
+            <div className="">
                 <div className="container">
                     <div className="row">
-                        <div className="header-logo col-lg-2 col-md-4 col-sm-4">
+                        <div className="header-logo  col-md-1 col-sm-4">
                             <h1>
                                 <a href="">
-                                    <img src="https://241671-742778-raikfcquaxqncofqfm.stackpathdns.com/pub/media/logo/stores/1/logo_becos_blk_new.png" alt="" />
+                                    <img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/common/images/icon-facebook.svg" alt="" />
                                 </a>
                             </h1>
                         </div>
@@ -49,9 +60,9 @@ export let Test = () => {
 
             </div>
         </div>
-        <div className="main">
+        <div className="main mb80">
             <div className="bg">
-                <div className="content-inner-y">
+                <div className="">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-10">
@@ -89,10 +100,10 @@ export let Test = () => {
                                     </nav>
                                 </div>
                             </div>
-                            <div className="col-md-2">
+                            <div className="col-md-1 sub-nav-info">
                                 <div className="nav-sub-header text-center">
                                     <a href="" className="btn-wrap">
-                                        <span>recureit</span>
+                                        recureit
                                     </a>
                                     <p>
                                         浜松市中区小豆餅の歯科医院
@@ -111,11 +122,11 @@ export let Test = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-2">
-                                <div className="news-sec-ttl">
-                                    <h2>
-                                        <span>お知らせ</span>
-                                        <span>お知らせ</span>
-                                    </h2>
+                                <div class="news-sec-ttl pb40">
+                                    <h1 class="sec-ttl">
+                                        <span class="eng">BLOG</span>
+                                        <span class="jpn">ブログ</span>
+                                    </h1>
                                 </div>
                             </div>
                             <div className="col-md-4">
@@ -151,12 +162,12 @@ export let Test = () => {
                 </div>
             </div>
         </section>
-        <section className="service mb40">
+        <section className="service mb40" id="service">
 
             <div className="content-inner-x">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4">
+                        <div className="col-md-4 col-xs-8">
                             <div className="bg">
                                 <div className="menu-sec-ttl">
                                     <p>
@@ -172,7 +183,7 @@ export let Test = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4  col-xs-8">
                             <div className="bg">
                                 <div className="menu-sec-ttl">
                                     <p>
@@ -188,7 +199,7 @@ export let Test = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4  col-xs-8">
                             <div className="bg">
                                 <div className="menu-sec-ttl">
                                     <p>
@@ -216,7 +227,7 @@ export let Test = () => {
                 <div className="container">
 
                     <div className="row justify-between">
-                        <div className="col-md-4 flex-dire-col flex flex-v-center">
+                        <div className=" mb20 col-md-4 flex-dire-col flex flex-v-center">
 
                             <div class="blog-sec-ttl pb40"><h1 class="sec-ttl"><span class="eng">BLOG</span><span class="jpn">ブログ</span></h1></div>
                             <div className="director-text">

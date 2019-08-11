@@ -6,3 +6,64 @@
     }
 
 }
+
+@media(max-width:768px) {
+    .slider-menu-item {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            order: 2;
+            // flex-shrink: 1;
+        }
+
+        h1 {
+            order: 1;
+
+            a {
+                img {
+                    width: 210px;
+                    // height: auto;
+                }
+            }
+        }
+    }
+
+    .main-img-logo {
+        display: none;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .sub-nav-info {
+        display: none;
+    }
+
+    .news-sec-search {
+        width: auto;
+        bottom: 0;
+        height: auto;
+        transform: translate(50%, 50%);
+    }
+
+    .header-middle-content {
+        height: 0;
+    }
+
+    #service {
+        .row {
+            div {
+                padding: 0px;
+            }
+        }
+    }
+}
+
+@media(min-width:768px) {
+    .slider-menu-item {
+        display: none;
+        position: absolute;
+    }
+}
