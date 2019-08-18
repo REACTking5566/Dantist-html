@@ -63,7 +63,7 @@ export let Test = () => {
         <div className="main mb80">
             <div className="bg">
                 <div className="">
-                    <div className="container">
+                    <div className="container border-box">
                         <div className="row">
                             <div className="col-md-10">
                                 <div className="main-img">
@@ -165,7 +165,7 @@ export let Test = () => {
         <section className="service mb40" id="service">
 
             <div className="content-inner-x">
-                <div className="container">
+                <div className="container  border-box">
                     <div className="row">
                         <div className="col-md-4 col-xs-8">
                             <div className="bg">
@@ -224,7 +224,7 @@ export let Test = () => {
 
         <section className="sec-employee mb40">
             <div className="bg relative">
-                <div className="container">
+                <div className="container  border-box">
 
                     <div className="row justify-between">
                         <div className=" mb20 col-md-4 flex-dire-col flex flex-v-center">
@@ -248,7 +248,7 @@ export let Test = () => {
                 </div>
             </div>
         </section>
-        <section className="blog">
+        <section className="blog mb40">
             <div className="bg relative">
                 <div className="container border-box mb40">
                     <div className="content-inner-x">
@@ -311,12 +311,12 @@ export let Test = () => {
 
             </div>
         </section>
-        <section className="iformation">
+        <section className="iformation mb80">
             <div className="bg">
                 <div className="content-inner-x">
-                    <div className="container">
+                    <div className="container  border-box">
                         <div className="row">
-                            <div className="col-md-4">
+                            <div className="col-md-4 mb20">
                                 <div className="sec-sub-ttl">
                                     <span></span>
                                     <span className="eng">INFOMATION</span>
@@ -332,7 +332,7 @@ export let Test = () => {
                             </div>
                             <div className="col-md-4">
                                 <div className="open-time-table-wrapper">
-                                    <table className="open-time-table">
+                                    <table className="open-time-table mb20">
                                         <tbody>
                                             <tr>
                                                 <th>診療時間</th>
@@ -352,9 +352,11 @@ export let Test = () => {
                                                 <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
                                                 <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
                                                 <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
+                                                <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
                                             </tr>
                                             <tr>
                                                 <th>8:30-12:00</th>
+                                                <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
                                                 <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
                                                 <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
                                                 <td className="open-table-circle"><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-circle.svg" alt="" /></td>
@@ -447,7 +449,7 @@ export let Test = () => {
                 <div className="footer-bottom-list">
                     <div className="bg">
                         <div className="content-inner-y content-inner-x">
-                            <div className="container border-box">
+                            <div className="container">
                                 <div className="row">
                                     <div className="col-md-12">
                                         <ul>

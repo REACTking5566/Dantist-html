@@ -2,6 +2,7 @@ body {
     color: #000;
     line-height: 1.8;
     letter-spacing: 0.1em;
+    overflow-x: hidden;
 }
 
 .header-top-content {
@@ -285,6 +286,7 @@ body {
 .sec-employee {
     .bg {
         // border: 1px solid red;
+        // background-color: #f7f5f2;
 
         .container {
             .row {
@@ -321,13 +323,16 @@ body {
 
 .iformation {
     .bg {
+        background-color: #f7f5f2;
+
         .content-inner-x {
             .container {
                 .row {
                     div {
+                        width: 100%;
 
                         &:nth-child(1) {
-                            color: red;
+                            font-size: 14px;
 
                             .sec-sub-ttl {
                                 &:after {
@@ -348,12 +353,23 @@ body {
 
                         &:nth-child(2) {
                             .open-time-table-wrapper {
-                                .open-time-table {}
+                                .open-time-table {
+                                    td {
+                                        border: 1px solid gray;
+
+                                        img {
+                                            max-width: 65%;
+                                        }
+                                    }
+                                }
 
                                 .open-table-text {
                                     p {}
 
-                                    img {}
+                                    img {
+                                        width: 8px;
+                                        height: 8px;
+                                    }
                                 }
                             }
                         }
@@ -367,9 +383,13 @@ body {
 
 .blog {
     .bg {
-        background-image: url('https://www.haru-shika.jp/wp/wp-content/themes/haru/images/blog-bg.jpg');
-        background-size: cover;
-        background-position: center center;
+        background-color: #f7f5f2;
+
+        @media screen and(min-width:768px) {
+            background-image: url('https://www.haru-shika.jp/wp/wp-content/themes/haru/images/blog-bg.jpg');
+            background-size: cover;
+            background-position: center center;
+        }
 
         &:after {
             content: '';
@@ -486,6 +506,8 @@ body {
                     .container {
                         .row {
                             div {
+                                width: 100%;
+
                                 ul {
                                     display: flex;
                                     justify-content: space-around;
@@ -577,7 +599,7 @@ body {
 }
 
 
-@media(min-width:800px) {
+@media(min-width:0px) {
     .open-time-table {
         th {
             padding: 8px 2px;
